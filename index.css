@@ -209,6 +209,20 @@ a button {
   margin-left: auto;
   max-width: 1300px;
   padding: 0 5rem;
+  background-color: #0069aa12;
+}
+
+.main-feature-container-facts {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  padding: 0 5rem;
+  background-color: #0069aa12;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -489,7 +503,6 @@ form {
 /*-------------------------------------------------------------------------------------*/
 
 footer {
-  background-color: #f1f6f4;
   margin-top: 5rem;
 }
 
@@ -576,7 +589,7 @@ footer {
   margin-left: auto;
 }
 .main-logo-footer {
-  max-width: 250px;
+  max-width: 200px;
   margin-bottom: 1rem;
 }
 

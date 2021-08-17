@@ -223,13 +223,25 @@ a button {
 }
 
 .hero-image {
-  width: 95%;
-  max-height: 600px;
+  max-width: 450px;
 }
 
-/*--------------------------------------------------------------*/
+.brands {
+  max-width: 200px;
+}
+
+.brands-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/*----------------------------------------site-info----------------------*/
 .main-feature {
-  margin-top: 3rem;
+  margin: 3rem auto;
 }
 
 .main-feature-container {
@@ -476,7 +488,7 @@ h2:after {
   margin-right: auto;
   margin-left: auto;
   border-radius: 5px;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .main-section-right-content {
@@ -541,7 +553,7 @@ footer {
 
 .site-info {
   font-size: 0.875rem;
-  text-align: left;
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
   line-height: 1.43;
@@ -603,7 +615,6 @@ footer {
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  margin: 1rem;
   flex: 1;
   border-radius: 5px;
   font-size: 0.875rem;
@@ -675,6 +686,11 @@ footer {
     flex-direction: column;
   }
 
+  .main-feature-container-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .main-logo {
     max-width: 300px;
     max-height: 66px;
@@ -686,10 +702,6 @@ footer {
 
   .feature-intro {
     padding: 0;
-  }
-
-  .main-container-content {
-    flex-direction: column-reverse;
   }
 
   .list-items {
@@ -715,7 +727,7 @@ footer {
   }
 
   .main-feature-container {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 
   .features {
@@ -726,15 +738,17 @@ footer {
     align-items: center;
     padding: 0;
     margin-top: 6rem;
+    width: auto;
   }
 
   .main-section-left {
     align-items: center;
     text-align: center;
+    width: auto;
   }
 
   .hero-image {
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .feature-list {
@@ -761,7 +775,7 @@ footer {
   }
 
   .title {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   h2 {
@@ -789,6 +803,10 @@ footer {
 
   .hero-image-insights {
     max-width: 300px;
+  }
+
+  .main-feature-container-facts {
+    padding: 1rem;
   }
 
   .main-section-right-content {
